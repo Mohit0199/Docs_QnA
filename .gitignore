@@ -1,0 +1,28 @@
+*.txt
+*.pdf
+*.docx
+*.doc
+
+!requirements.txt
+
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# Ignore model snapshots (optional, if not needed in Git)
+Models/
+models/
